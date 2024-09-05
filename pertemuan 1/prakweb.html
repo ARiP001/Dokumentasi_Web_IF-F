@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba bikin web html</title>
+    <link rel="shortcut icon" href="asset/GKL5_Universitas_Pembangunan_Nasional_Veteran_Yogyakarta_-_Koleksilogo.com-removebg-preview.png">
+
+    <!-- <style>
+        *{
+            background-color: blueviolet;
+            font-size: 15px;
+        };
+        
+    </style> -->
+</head>
+<body>
+    <h1 align="center">halo dunia</h1>
+    <h2 align="right">halo dunia</h2>
+    <h3 align="left">halo dunia</h3>
+    <br>
+    <h4>halo dunia</h4>
+    <h5>halo dunia</h5>
+    <h6>halo dunia</h6>
+    
+    <p>pada hari ini kita belajar pemrograman website html</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, vitae temporibus cum id impedit architecto nam at necessitatibus dolorum dolor eos quae, modi nihil, omnis eius quis expedita ad officiis!</p>
+
+    <center>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex sequi fugiat fuga molestiae quidem. Ratione, deleniti quaerat. Quibusdam possimus, eligendi temporibus ullam illo voluptatum et recusandae doloribus illum facilis reiciendis!</center>
+
+    <a href="https://spada.upnyk.ac.id/login/index.php" target="_blank">klik untuk mendapat iphone 15 gratis</a>
+
+    <p>list makanan</p>
+    <ul type="disk">
+        <li>nasi goreng</li>
+        <li>mendoan</li>
+        <li>bakwan</li>
+    </ul>
+
+    <p>list minuman</p>
+    <ol type="A">
+        <li>air es</li>
+        <li>teh tawar</li>
+        <li>kopi</li>
+    </ol>
+
+    <table border="1px">
+        <tr>
+            <th>no</th>
+            <th>nama</th>
+            <th>nim</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>arif f</td>
+            <td>123111</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>windy</td>
+            <td>123222</td>
+        </tr>
+        <tr>
+            <td colspan="3">dunia</td>
+            <!-- <td>baru</td> -->
+        </tr>
+        <tr>
+            <td rowspan="2">coba</td>
+            <td>rowspan</td>
+            <td>x</td>
+        </tr>
+        <tr>
+            <td>colspan</td>
+            <td>x</td>
+        </tr>
+    </table>
+
+    <br>
+    <img src="asset/Youtube_logo (1).png" alt="contoh gambar" width="150px">
+    
+    <form action="submit.html" method="get">
+        <!-- <p>masukan nama</p>
+        <input type="text" name="nama" id="nama">
+        <p>masukan umur</p>
+        <input type="text" name="um" id="um"> -->
+        <table>
+            <tr>
+                <td>nama</td>
+                <td><input type="text" name="nama" id="nama"></td>
+            </tr>
+            <tr>
+                <td>umur</td>
+                <td><input type="text" name="umur" id="umur"></td>
+            </tr>
+            <tr>
+                <td>hobi</td>
+                <td><input type="checkbox" name="fish" id="fish">mancing perkoro</td>
+                <td><input type="checkbox" name="game" id="game">gaming</td>
+                <td><input type="checkbox" name="music" id="music">dengerin musik</td>
+            </tr>
+            <tr>
+                <td>jenis kelamin</td>
+                <td><input type="radio" name="jk" id="lk">laki-laki</td>
+                <td><input type="radio" name="jk" id="pr">perempuan</td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="kirimkan"></td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="reset"></td>
+            </tr>
+        </table>
+    </form>
+
+    <br>
+    <h3>Formulir Biodata</h3>
+    <form action="submit.html" method="get">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td>:</td>
+                <td><input type="text" name="nama" id="nama"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td><input type="text" name="pass" id="pass"></td>
+            </tr>
+            <tr>
+                <td>Age Range</td>
+                <td>:</td>
+                <td><label for="umur"></label>
+                    <select id="umur" name="umur">
+                      <option value="0-15">0-15</option>
+                      <option value="16-30">16-30</option>
+                      <option value="31-45">31-45</option>
+                      <option value="46++">46++</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Life Story</td>
+                <td>:</td>
+            </tr>
+            <tr><td colspan="5"><textarea name="story" id="story" rows="5" cols="50"></textarea></td></tr>
+            <tr><td colspan="5">Your favorite sport
+                <input type="radio" name="sport" id="tennis">Tennis
+                <input type="radio" name="sport" id="cricket">Cricket
+                <input type="radio" name="sport" id="baseball">Baseball
+                <input type="radio" name="sport" id="polo">Polo
+            </td></tr>
+            <tr><td colspan="5">Language you choose
+                <input type="checkbox" name="lang" id="php">php
+                <input type="checkbox" name="lang" id="cpp">C++
+                <input type="checkbox" name="lang" id="delphi">Delphi
+                <input type="checkbox" name="lang" id="java">Java
+            </td></tr>
+            <tr><td><input type="submit" value="Submit Query">
+            <input type="reset" value="Reset"></td></tr>
+        </table>
+    </form>
+
+    <h1>cobain live server</h1>
+</body>
+<footer align="center">&copy;asisten praktikum web programming</footer>
+</html>
